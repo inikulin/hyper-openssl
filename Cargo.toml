@@ -1,6 +1,6 @@
 [package]
 name = "hyper-openssl"
-version = "0.8.1"
+version = "0.8.1-cf"
 authors = ["Steven Fackler <sfackler@gmail.com>"]
 edition = "2018"
 description = "Hyper TLS support via OpenSSL"
@@ -21,10 +21,10 @@ http = "0.2"
 hyper = { git = "https://github.com/inikulin/hyper", rev = "388ded50c2c0a0e4b446b22e00856bf0132246a3", default-features = false }
 linked_hash_set = "0.1"
 once_cell = "1.0"
-openssl = { git = "https://github.com/inikulin/rust-openssl", rev = "2eef8250c90c5d2f8e48cbac3197fd6c2ca97400", features = ["vendored"] }
-openssl-sys = { git = "https://github.com/inikulin/rust-openssl", rev = "2eef8250c90c5d2f8e48cbac3197fd6c2ca97400", features = ["vendored"] }
+openssl = { git = "https://github.com/inikulin/rust-openssl", rev = "94d13219570e543a2947d3bb77c1c9cd98015675", features = ["vendored"] }
+openssl-sys = { git = "https://github.com/inikulin/rust-openssl", rev = "94d13219570e543a2947d3bb77c1c9cd98015675", features = ["vendored"] }
 tokio = "0.2"
-tokio-openssl = {  git = "https://github.com/inikulin/tokio-openssl", rev="a5652421b9d2dbaa5bc8ef4b207a9ed5737b7df1" }
+tokio-openssl = {  git = "https://github.com/inikulin/tokio-openssl", rev="671ace6e11abfff2750ccd40932fd03710ff133a" }
 tower-layer = "0.3"
 
 [dev-dependencies]
